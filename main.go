@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/santiago2687/godesde0/ejercicios"
 )
 
@@ -27,9 +25,14 @@ func main() {
 		fmt.Println("Esto es Darwin")
 	default:
 		fmt.Printf("%s \n", os)
-	}*/
+	}
 
 	numeroEntero, mensaje := ejercicios.DevolverIntAndString("50")
 	fmt.Println(numeroEntero)
 	fmt.Println(mensaje)
+
+	teclado.IngresoNumeros()*/
+
+	ejercicios.TablaMultiplicar()
+
 }
