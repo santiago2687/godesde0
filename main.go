@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/santiago2687/godesde0/goroutines"
+	"github.com/santiago2687/godesde0/webserver"
 )
 
 func main() {
@@ -67,11 +65,13 @@ func main() {
 
 	//deferpanic.VemosDefer()
 
-	canal1 := make(chan bool)
+	/*canal1 := make(chan bool)
 
 	go goroutines.MiNombreLentoooo("Santiago Bermudez", canal1)
 	defer func() {
 		<-canal1
 	}()
-	fmt.Println("Estoy aqui")
+	fmt.Println("Estoy aqui")*/
+
+	webserver.MiWebServer()
 }
