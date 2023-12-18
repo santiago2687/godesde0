@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/santiago2687/godesde0/files"
+	"github.com/santiago2687/godesde0/ejercicios/mapas"
 )
 
 func main() {
@@ -39,5 +39,19 @@ func main() {
 
 	//files.SumaTabla()
 
-	files.LeerArchivo()
+	//files.LeerArchivo()
+
+	//funciones.Calculos()
+
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+
+	//arreglosslices.MuestroArreglos()
+
+	//arreglosslices.MuestroSlice()
+
+	//arreglosslices.Capacidad()
+
+	mapas.MostrarMapas()
 }
