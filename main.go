@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/santiago2687/godesde0/ejercicios/mapas"
+	e "github.com/santiago2687/godesde0/ejer_interfaces"
+	"github.com/santiago2687/godesde0/modelos"
 )
 
 func main() {
@@ -53,5 +54,13 @@ func main() {
 
 	//arreglosslices.Capacidad()
 
-	mapas.MostrarMapas()
+	//mapas.MostrarMapas()
+
+	//users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
